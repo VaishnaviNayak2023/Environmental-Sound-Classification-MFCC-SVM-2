@@ -1,0 +1,16 @@
+# ── Environmental Sound Classification — Pipeline Config ──
+
+# Dataset
+dataset_audio_path: "data/UrbanSound8K/audio"
+metadata_path: "data/UrbanSound8K/metadata/UrbanSound8K.csv"
+
+# Audio processing
+sample_rate: 22050
+mfcc_features: 40
+
+# Training
+test_size: 0.2
+random_state: 42
+
+# Model output (relative to project root — resolved by helpers.load_config)
+model_output: "models/trained_model.pkl"
