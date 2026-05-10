@@ -1,0 +1,32 @@
+SCREENSHOTS OF THE PROJECT
+
+1. Home Page
+The home page provides the main interface of the Environmental Sound Classification system. Users can upload an audio file and interact with the application through a simple and user-friendly frontend.
+
+2. Audio Upload Interface
+This screen allows users to upload environmental sound recordings in WAV format. The uploaded audio is processed for feature extraction and prediction.
+
+3. Feature Extraction Process
+The backend extracts MFCC (Mel Frequency Cepstral Coefficients) features from the uploaded audio file. These features represent the important frequency characteristics of the sound signal.
+
+4. Model Prediction Screen
+After feature extraction, the trained SVM (Support Vector Machine) model predicts the class of the environmental sound such as siren, dog bark, drilling, engine idling, or street music.
+
+5. Prediction Result Display
+The system displays the predicted environmental sound category along with the processed output. This helps users understand the classification result clearly.
+
+6. Training and Evaluation Module
+This section demonstrates the model training and evaluation process using the UrbanSound8K dataset. The model performance is measured using classification accuracy and other evaluation metrics.
+
+7. Backend Processing
+The backend handles audio preprocessing, MFCC feature extraction, model loading, prediction, and communication with the frontend interface.
+
+8. Frontend Application
+The frontend provides an interactive user experience for uploading audio files and viewing classification results in real time.
+
+9. Overall Workflow
+The complete workflow of the project includes:
+Audio Input → MFCC Feature Extraction → SVM Classification → Prediction Output
+
+10. Conclusion
+The Environmental Sound Classification project successfully classifies environmental audio signals using MFCC feature extraction and an SVM machine learning model. The system demonstrates the practical application of machine learning and audio signal processing in sound recognition tasks.
